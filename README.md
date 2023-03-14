@@ -52,7 +52,7 @@
 │       └── __init__.py
 ├── README.md
 ├── requirement.txt
-├── test.ipynb
+├── main.ipynb
 ├── test.py
 ├── test.sh
 ├── train.py
@@ -67,6 +67,17 @@
 ```
 </div>
 </details>
+
+## Init
+
+```shell
+~/Google Drive/내 드라이브$ git clone https://github.com/Team-BoonMoSa/PANPP
+~/Google Drive/내 드라이브$ cd PANPP
+```
+
+`~/Google Drive/내 드라이브/PANPP/data`에 `FlickrLogos-v2` 업로드
+
+---
 
 ## Train
 
