@@ -46,7 +46,7 @@ def get_ann_tt(img, gt_path):
     words = []
     for line in lines:
         line = line.encode('utf-8').decode('utf-8-sig')
-        gt = line.split('\t')
+        gt = line.split(',')
 #         if len(gt)<9:
 #             print(gt_path)
 #             print(gt)
@@ -64,7 +64,10 @@ def get_ann_tt(img, gt_path):
             continue
         words.append(word)
         
-        p_bbox =[int(float(gt[j])) for j in range(len(gt)-1)]
+        if len(gt) == 8:
+            p_bbox =[int(float(gt[j])) for j in range(len(gt))]
+        else:
+            p_bbox =[int(float(gt[j])) for j in range(len(gt)-1)]
         bbox_re=np.reshape(p_bbox,(-1,2))
         bbox=[]
         for i in range(len(bbox_re)):
