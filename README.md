@@ -78,6 +78,12 @@
 
 ---
 
+## Make Ground Truth
+
+```shell
+sh makeGT.sh
+```
+
 ## Train
 
 ```shell
