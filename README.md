@@ -1,3 +1,11 @@
+<details>
+<summary>Model Structure</summary>
+<div>
+
+![Model](https://user-images.githubusercontent.com/42334717/225534121-10ba8a2a-6424-466a-8382-0dd7ebfc654b.png)
+
+</div>
+</details>
 
 <details>
 <summary>Directory Structure</summary>
@@ -65,6 +73,7 @@
     ├── result_format.py
     └── visualizer.py
 ```
+
 </div>
 </details>
 
